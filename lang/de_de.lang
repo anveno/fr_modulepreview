@@ -1,0 +1,6 @@
+fr_modulepreview_title = FR ModulePreview
+fr_modulepreview_modules = Modulvorschau
+fr_modulepreview_thumbnail = Vorschaubild
+
+
+perm_general_fr_modulepreview[] = fr_modulepreview[] - Rechte für FR ModulePreview

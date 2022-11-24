@@ -1,0 +1,19 @@
+package: fr_modulepreview
+version: '1.0.0'
+author: 'Stefan Brinkers'
+supportpage: https://github.com/anveno/fr_modulepreview
+
+# Abhängigkeiten
+# Anforderungen ans System oder anderere AddOns, um dieses AddOn installieren oder update zu können
+requires:
+    redaxo: '^5.12' # benötigt mindestens REDAXO 5.2
+    php:
+        version: '>=7.1' # benötigt mindestens PHP 7
+
+pages:
+    modules/fr_modulepreview_modules:
+        perm: admin
+        title: translate:fr_modulepreview_modules
+        pjax: false
+
+load: late
